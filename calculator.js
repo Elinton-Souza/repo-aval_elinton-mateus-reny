@@ -1,4 +1,7 @@
 // retorna o valor da soma entre os dois parâmetros
+let v1 = 5
+let v2 = 2
+
 function sum(v1, v2) {
   return v1 + v2
 }
@@ -23,4 +26,7 @@ function mult(v1, v2) {
 console.log(mult(v1, v2));
 
 // retorna o valor da raiz quadrada do valor recebido por parâmetro
-function square(v1) {}
+function square(v1) {
+  return v1 ** v2
+}
+console.log(square())
